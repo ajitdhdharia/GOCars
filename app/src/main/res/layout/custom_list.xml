@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@color/colorgrey"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/parent_layout"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/ic_launcher" />
+    <TextView
+        android:id="@+id/image_name"
+        android:text="dvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         android:gravity="center"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:visibility="invisible"
+        android:layout_below="@+id/img"
+        android:text="idoftable"
+        android:layout_toRightOf="@+id/button"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp" />
+
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_below="@+id/img"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="______________________________________________________"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="View Details"
+        android:textColor="@color/colorwhite"
+        android:background="@color/colorred"
+        android:layout_below="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/cost"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="CAD70.50"
+        android:textSize="25dp"
+android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/cost1"
+        android:layout_below="@+id/cost"
+        android:layout_marginTop="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="Per day"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/economy"
+        android:layout_marginTop="50dp"
+
+       android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/img"
+        android:gravity="center"
+        android:text="Economy"
+        android:textSize="20dp"
+
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/seats"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/economy"
+      android:layout_toRightOf="@+id/img"
+        android:layout_width="wrap_content"
+        android:text="5 Seats"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/doors"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/economy"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:text="   2 doors"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/air"
+        android:layout_below="@+id/doors"
+       android:layout_toRightOf="@+id/img"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+
+        android:text="Air Conditioning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/auto"
+        android:layout_below="@+id/air"
+      android:layout_toRightOf="@+id/img"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+
+        android:text="Automatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
+
