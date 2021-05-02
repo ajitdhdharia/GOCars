@@ -28,6 +28,9 @@ A step by step series of examples that tell you how to get a development env run
 * SQLite
 * Google Maps API
 
+## Software Requirement Specifications
+[**Visit**](https://drive.google.com/file/d/1LLwLri3EyHqFHn6sEnFbbozvSGoll6yP/view?usp=sharing) for SRS Document
+
 ## Contributers
 * [**Varun Mahajan**](https://github.com/varunmahajan292)
 * [**Arzoo Padam**](https://github.com/arzooGithub?tab=overview&from=2020-08-01&to=2020-08-31)
